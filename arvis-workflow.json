@@ -5,13 +5,14 @@
   "name": "fkill",
   "readme": "",
   "enabled": true,
+  "defaultIcon": "icon.png",
   "commands": [
     {
       "type": "scriptfilter",
       "command": "kill",
       "title": "Search and kill processes",
       "subtitle": "",
-      "script_filter": "./node_modules/.bin/run-node index.js \"$1\"",
+      "script_filter": "node index.js \"$1\"",
       "running_subtext": "Searching...",
       "withspace": true,
       "arg_type": "required",

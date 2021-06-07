@@ -1,9 +1,8 @@
 {
-	"name": "alfred-fkill",
-	"version": "0.4.1",
+	"name": "@jopemachine/arvis-fkill",
+	"version": "0.0.4",
 	"description": "Arvis workflow to fabulously search and kill processes",
 	"license": "MIT",
-	"repository": "SamVerschueren/alfred-fkill",
 	"author": {
 		"name": "Sam Verschueren",
 		"email": "sam.verschueren@gmail.com",
@@ -14,15 +13,16 @@
 	},
 	"scripts": {
 		"test": "xo && ava",
-		"postinstall": "alfy-init",
-		"preuninstall": "alfy-cleanup"
+		"postinstall": "arvish-init",
+		"preuninstall": "arvish-cleanup"
 	},
 	"files": [
 		"index.js",
 		"kill.js",
 		"lib",
 		"icon.png",
-		"info.plist"
+		"info.plist",
+		"arvis-workflow.json"
 	],
 	"keywords": [
 		"arvis",
@@ -43,7 +43,6 @@
 		"ps-list": "^4.0.0"
 	},
 	"devDependencies": {
-		"alfy-test": "^0.3.0",
 		"ava": "*",
 		"get-port": "^3.2.0",
 		"xo": "*"

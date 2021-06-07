@@ -1,22 +1,23 @@
-# alfred-fkill [![Build Status](https://travis-ci.org/SamVerschueren/alfred-fkill.svg?branch=master)](https://travis-ci.org/SamVerschueren/alfred-fkill)
+# arvis-fkill
 
-> [Alfred 3](https://www.alfredapp.com) workflow to fabulously search and kill processes
+> [Arvis](https://github.com/jopemachine/arvis) workflow to search and kill processes
+
+This repository is cloned from [alfred-fkill](https://github.com/SamVerschueren/alfred-fkill)
 
 <img src="screenshot.png" width="694">
-
 
 ## Install
 
 ```
-$ npm install --global alfred-fkill
+$ npm install --global arvis-fkill
 ```
 
-*Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
+*Requires [Node.js](https://nodejs.org) 4+.*
 
 
 ## Usage
 
-In Alfred, type `kill`, <kbd>Enter</kbd>, and the name of your process.
+In Arvis, type `kill`, <kbd>Enter</kbd>, and the name of your process.
 
 To kill a process by its port number, prefix it with a colon. For example: `kill :8080`.
 
