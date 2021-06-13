@@ -1,22 +1,22 @@
 {
   "$schema": "https://github.com/jopemachine/arvis-core/blob/master/workflow-schema.json",
   "category": "",
-  "createdby": "Sam Verschueren",
+  "creator": "Sam Verschueren",
   "name": "fkill",
   "readme": "",
   "enabled": true,
   "defaultIcon": "icon.png",
   "commands": [
     {
-      "type": "scriptfilter",
+      "type": "scriptFilter",
       "command": "kill",
       "title": "Search and kill processes",
       "subtitle": "",
-      "script_filter": "node index.js \"$1\"",
-      "running_subtext": "Searching...",
+      "scriptFilter": "node index.js \"$1\"",
+      "runningSubtext": "Searching...",
       "withspace": true,
-      "arg_type": "required",
-      "action": [
+      "argType": "required",
+      "actions": [
         {
           "modifiers": "normal",
           "type": "script",
