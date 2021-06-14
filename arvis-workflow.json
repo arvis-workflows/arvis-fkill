@@ -1,7 +1,8 @@
 {
-  "$schema": "https://github.com/jopemachine/arvis-core/blob/master/workflow-schema.json",
+  "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
   "category": "",
   "creator": "Sam Verschueren",
+  "version": "0.0.1",
   "name": "fkill",
   "readme": "",
   "enabled": true,

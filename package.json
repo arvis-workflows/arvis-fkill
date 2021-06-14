@@ -1,6 +1,6 @@
 {
-	"name": "@jopemachine/arvis-fkill",
-	"version": "0.2.0",
+	"name": "arvis-fkill",
+	"version": "0.0.1",
 	"description": "Arvis workflow to fabulously search and kill processes",
 	"license": "MIT",
 	"author": {
@@ -37,7 +37,7 @@
 		"force"
 	],
 	"dependencies": {
-		"@jopemachine/arvish": "^0.2.4",
+		"arvish": "^0.0.3",
 		"fkill": "^7.1.1",
 		"pid-from-port": "^1.1.2",
 		"ps-list": "^4.0.0"

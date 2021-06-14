@@ -1,5 +1,5 @@
 'use strict';
-const arvish = require('@jopemachine/arvish');
+const arvish = require('arvish');
 const psList = require('ps-list');
 const pidFromPort = require('pid-from-port');
 

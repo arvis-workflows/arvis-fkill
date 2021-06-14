@@ -2,9 +2,13 @@
 
 > [Arvis](https://github.com/jopemachine/arvis) workflow to search and kill processes
 
-This repository is cloned from [alfred-fkill](https://github.com/SamVerschueren/alfred-fkill)
-
 <img src="screenshot.png" width="694">
+
+## 🔗 This workflow is converted from [alfred-workflow](https://github.com/SamVerschueren/alfred-fkill).
+
+* Note that there might be some code change or different actions from the original workflow.
+
+* Marked original workflow's creator to author.
 
 ## Install
 
