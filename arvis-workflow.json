@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
   "category": "",
   "creator": "Sam Verschueren",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "name": "fkill",
   "readme": "",
   "enabled": true,
@@ -13,7 +13,7 @@
       "command": "kill",
       "title": "Search and kill processes",
       "subtitle": "",
-      "scriptFilter": "node index.js \"$1\"",
+      "scriptFilter": "node index.js \"{query}\"",
       "runningSubtext": "Searching...",
       "withspace": true,
       "argType": "required",
@@ -21,7 +21,7 @@
         {
           "modifiers": "normal",
           "type": "script",
-          "script": "node kill.js \"$1\""
+          "script": "node kill.js \"{query}\""
         }
       ]
     }
