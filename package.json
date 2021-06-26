@@ -1,6 +1,6 @@
 {
 	"name": "arvis-fkill",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Arvis workflow to fabulously search and kill processes",
 	"license": "MIT",
 	"author": {
