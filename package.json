@@ -1,6 +1,6 @@
 {
 	"name": "arvis-fkill",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Arvis workflow to fabulously search and kill processes",
 	"license": "MIT",
 	"author": {
@@ -12,7 +12,7 @@
 		"node": ">=6"
 	},
 	"scripts": {
-		"test": "xo && ava",
+		"test": "ava",
 		"postinstall": "arvish-init",
 		"preuninstall": "arvish-cleanup"
 	},
@@ -37,13 +37,14 @@
 		"force"
 	],
 	"dependencies": {
-		"arvish": ">=0.3.1",
+		"arvish": ">=0.3.6",
 		"fkill": "^7.1.1",
 		"pid-from-port": "^1.1.2",
 		"ps-list": "^4.0.0"
 	},
 	"devDependencies": {
-		"ava": "*",
+		"arvish-test": "0.0.2",
+		"ava": "^3.15.0",
 		"get-port": "^3.2.0",
 		"xo": "*"
 	}

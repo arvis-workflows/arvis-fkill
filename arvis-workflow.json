@@ -2,9 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
   "category": "",
   "creator": "Sam Verschueren",
-  "version": "0.0.3",
-  "name": "fkill",
+  "version": "0.0.4",
+  "name": "arvis-fkill",
   "readme": "",
+  "webAddress": "https://github.com/jopemachine/arvis-fkill",
+  "description": "Arvis workflow to fabulously search and kill processes",
   "enabled": true,
   "defaultIcon": "icon.png",
   "commands": [
